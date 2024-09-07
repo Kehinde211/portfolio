@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    margin: 30% 5%;
+    text-align: center;
+    color: white;
+    font-size: 50rem;
+    font-weight: bold;
+}
+
+.actualName {
+    color: red;
+}
+
+.intro, .intro-two {
+    font-size: 40px;
+}
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+.my-work {
+    display: flex;
+    justify-content: center;
+    color: red;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    border: 2px solid red;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.particle {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;  /* Makes the particles circular */
+    pointer-events: none;  /* Ensures particles don't interfere with user interaction */
+}
